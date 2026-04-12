@@ -42,7 +42,7 @@ Daniel Eric Fredriksen is the sole author and was responsible for the study conc
 
 ### Data, materials, and/or code availability
 
-The benchmark packets, retained artifact chains, reviewer materials, and manuscript supplement supporting this study are archived in a project repository maintained by the corresponding author. Because the archive includes operational materials and review artifacts, it is not currently posted as a public dataset. Materials can be provided to editors and reviewers upon reasonable request.
+The benchmark packets, retained artifact chains, reviewer materials, manuscript supplement, and selected reproducibility scripts supporting this study are publicly available in the Quantyra Teaching Artifacts repository: `https://github.com/dfredriksen/quantyra-teaching-artifacts`. The fixed paper-support release cited for this submission is version `v1.0.1`: `https://github.com/dfredriksen/quantyra-teaching-artifacts/releases/tag/v1.0.1`.
 
 ### Ethics approval
 

@@ -214,7 +214,10 @@ These constraints matter because local ceilings reflect both model capability an
 
 ## Supplement G. Data, Materials, And Audit Trail Availability
 
-The following materials are archived in the project repository and available as part of the manuscript evidence chain:
+The following materials are publicly available as part of the manuscript evidence chain in the Quantyra Teaching Artifacts repository:
+
+- repository: `https://github.com/dfredriksen/quantyra-teaching-artifacts`
+- fixed paper-support release: `https://github.com/dfredriksen/quantyra-teaching-artifacts/releases/tag/v1.0.1`
 
 - benchmark packets
 - run sheets
@@ -223,4 +226,4 @@ The following materials are archived in the project repository and available as 
 - scoring rubrics
 - human and model-based hosted review materials
 
-The separate EMSE title-page declarations currently state that the archived materials are maintained in a project repository that is not presently released as a public dataset because it includes operational materials and review artifacts, but editor and reviewer access can be provided on reasonable request.
+The separate EMSE title-page declarations now point directly to the same public repository and fixed release.

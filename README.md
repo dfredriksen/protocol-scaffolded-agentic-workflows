@@ -9,6 +9,7 @@ This repository is the public evidence surface for the current Quantyra Teaching
 Repository URL:
 
 - `https://github.com/dfredriksen/quantyra-teaching-artifacts`
+- fixed paper-support release: `https://github.com/dfredriksen/quantyra-teaching-artifacts/releases/tag/v1.0.1`
 
 ## Scope
 

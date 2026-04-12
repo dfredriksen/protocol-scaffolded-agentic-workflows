@@ -45,6 +45,8 @@ Provide a single review-ready location for the current `EMSE` submission packet 
 - hosted human `L2` is complete on the reviewed hosted slice
 - the repo-side packet now scores `15/16` on the hard rubric and clears the manuscript-quality threshold
 - the remaining organizational actions are staffed signoff and final visual inspection
+- public artifact repository: `https://github.com/dfredriksen/quantyra-teaching-artifacts`
+- fixed paper-support release target: `v1.0.1`
 
 ## Submission-facing files
 
