@@ -1,0 +1,18 @@
+flowchart TB
+    subgraph H[Hosted Primary Evidence Layer]
+        H0[Primary publication surface]
+        H1[Providers<br/>OpenAI, Google, Anthropic]
+        H2[Benchmark families<br/>BP001 to BP004]
+    end
+
+    subgraph L[Local Resilience Evidence Layer]
+        L0[Bounded resilience surface]
+        L1[Open-weight BP001<br/>mixed structural uplift]
+        L2[BP007B<br/>diagnostic planning branch]
+        L3[BP008<br/>workflow branch with fallback value]
+    end
+
+    P[Pending gate<br/>L2 distinct-evaluator review]
+
+    H --> P
+    L --> P

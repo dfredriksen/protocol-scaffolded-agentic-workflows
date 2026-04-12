@@ -1,0 +1,9 @@
+Evaluate the executor artifact against the CORE BAR only. Return only one of: PASS-CORE, FAIL, or BLOCKED. If FAIL, list only the blocking defects.
+
+Core bar:
+1. states a concrete repository-phase objective
+2. names constraints that match this repo's markdown workflow
+3. identifies required artifacts in existing repo areas
+4. identifies dependencies and at least one concrete validation checkpoint
+5. includes a real fallback path and retained-output expectation
+6. avoids invented non-repo systems, products, or workflows

@@ -1,0 +1,8 @@
+You are still the executor and remain the final author.
+
+Revise your original draft using the reviewer feedback below.
+
+Requirements:
+- Stay grounded in actual repo artifact paths where possible.
+- Keep the result concise.
+- Preserve the planning protocol structure.

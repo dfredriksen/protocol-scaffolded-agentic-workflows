@@ -1,0 +1,1 @@
+Using `docs/process/planning-protocol.md`, create a plan for a novelty-review workstream for publication preparation in this repository. Apply the full plan-and-refine loop, include validation checkpoints, risks, dependencies, and fallback paths, and close with a scorecard.

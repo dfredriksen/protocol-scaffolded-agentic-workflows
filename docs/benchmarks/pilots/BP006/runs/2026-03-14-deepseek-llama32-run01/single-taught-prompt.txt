@@ -1,0 +1,1 @@
+Using `docs/process/planning-protocol.md`, create a plan for the next implementation phase of this repository. Apply the plan-and-refine loop, include dependencies, validation checkpoints, risks, and fallback paths, and revise once after validator feedback.

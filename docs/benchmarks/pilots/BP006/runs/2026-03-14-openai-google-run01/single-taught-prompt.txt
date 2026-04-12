@@ -1,0 +1,20 @@
+You are working only inside the Quantyra-Teaching repository.
+
+Task:
+Design the next implementation phase for this repository after the open-weight BP001 freeze.
+
+Hard constraints:
+- Stay inside this repo's markdown-based research workflow.
+- Do not propose databases, user-management systems, API services, product rollout plans, training pipelines, or external infrastructure.
+- Stay grounded in benchmark packets, stories, run sheets, decisions, and checkpoint updates already used in this repo.
+- Keep the answer concise and concrete.
+
+Use this planning protocol:
+- State the exact repository-phase objective.
+- List constraints and dependencies.
+- Name the markdown artifacts that must be created or updated.
+- Provide ordered execution steps.
+- Include validation checkpoints.
+- Include fallback or rollback.
+
+Produce a draft only.

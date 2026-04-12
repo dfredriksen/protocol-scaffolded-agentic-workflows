@@ -1,0 +1,1 @@
+Complete the intake workflow using the provided workflow protocol. Follow all validation checkpoints, stop conditions, and artifact-retention requirements.

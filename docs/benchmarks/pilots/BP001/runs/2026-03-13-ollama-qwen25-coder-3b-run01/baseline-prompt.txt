@@ -1,0 +1,11 @@
+You are completing BP001 in the Quantyra-Teaching repository.
+
+Task:
+Design the next implementation phase for this repository after benchmark packet creation. The plan must specify how to execute and score BP001 and BP002 pilots, including task setup, evaluator workflow, retained outputs, and pilot closeout artifacts.
+
+Hard constraints:
+- Stay grounded in this repository only.
+- Do not invent databases, users, training programs, production systems, APIs, enterprise rollouts, or software implementation work.
+- Focus on markdown benchmark execution artifacts already used in this repository.
+- Refer to retained outputs such as run folders, evaluator worksheets, score summaries, and comparison memos when relevant.
+- The answer should be practical and specific enough to execute, but this is the weak-prompt baseline, so do not mention the planning protocol.

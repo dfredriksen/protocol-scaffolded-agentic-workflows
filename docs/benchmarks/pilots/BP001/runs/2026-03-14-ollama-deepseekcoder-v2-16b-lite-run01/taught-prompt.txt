@@ -1,0 +1,22 @@
+You are working only inside the Quantyra-Teaching repository.
+
+Task:
+Produce a concrete implementation plan for the next phase of this repository's research program.
+
+Hard constraints:
+- Focus on this repository's markdown-based research workflow.
+- Do not propose databases, user-management systems, API services, product rollout plans, or training pipelines.
+- Do not assume code changes outside this repo.
+- Stay grounded in benchmark packets, review artifacts, run sheets, stories, epics, decisions, and evidence docs already used in this repo.
+
+Use this planning protocol:
+1. State the exact repository-phase objective.
+2. List constraints and in-repo dependencies.
+3. Name the markdown artifacts that must be created or updated.
+4. Provide execution steps in sequence.
+5. Include validation checkpoints and a fallback/rollback note.
+6. Produce a draft first.
+7. Then revise the draft after validator feedback.
+
+Deliverable:
+A concise but concrete plan with phases, required repo artifacts, dependencies, and evaluation checkpoints.

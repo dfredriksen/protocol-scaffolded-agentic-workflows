@@ -1,0 +1,58 @@
+Using the planning protocol below, create the initial draft for the next implementation phase of the Quantyra-Teaching repository after the BP006 architecture freeze. Keep it grounded in benchmark packets, stories, run sheets, decision notes, and checkpoint updates already used in this repo.
+
+Planning protocol:
+# Teaching Planning Protocol
+
+Adapted from the planning-control process already used in sibling Quantyra repositories and aligned to the DAPO-inspired plan-and-refine model.
+
+## Purpose
+Improve planning reliability for research and implementation tasks that are novel, multi-step, or evaluation-sensitive.
+
+## Planning types
+- `deterministic`: clear rules, known artifacts, low ambiguity
+- `mixed`: known objective with partial discovery or dependencies
+- `exploratory`: novel methodology, uncertain experiment design, or open research risk
+
+## Required planning skeleton
+- Goal
+- Constraints
+- Required artifacts
+- Dependencies
+- Validation checkpoints
+- Rollback or fallback
+
+## Plan-and-refine loop
+### Phase A: draft
+The initial draft must include:
+- objective and success condition
+- assumptions and constraints
+- ordered actions
+- outputs
+- validation steps
+- risks and fallback paths
+
+### Phase B: validator review
+Validator feedback must identify:
+- correctness issues
+- missing dependencies
+- evaluation gaps
+- confounds or bias risks
+- concrete revisions required
+
+## Revision policy
+- `L0`: execute directly
+- `L1`: one draft plus one revision
+- `L2`: one draft plus up to two revisions
+- `L3`: one draft plus up to three revisions
+
+## Teaching-specific additions
+- Every plan must state what would count as genuine teaching rather than prompt overfitting.
+- Every experiment plan must identify at least one comparison condition.
+- Every benchmark plan must define artifact retention so another agent can rerun the work.
+
+## Closeout scorecard
+- constraint adherence
+- completion rate
+- validation pass/fail
+- rework count
+- open follow-ups

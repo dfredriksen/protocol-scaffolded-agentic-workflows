@@ -1,0 +1,1 @@
+Review the executor draft against the BP007B core bar only. Fail the draft if it lacks a concrete repository-phase objective, repo-matched constraints, real artifact locations, dependencies, validation checkpoints, fallback handling, or retained-output expectations.

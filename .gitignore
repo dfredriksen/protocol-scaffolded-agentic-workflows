@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+client_secret*.json
+*_token*.json
+credentials/

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as software/artifact support for the Quantyra Teaching paper."
+title: "Quantyra Teaching Artifacts"
+version: "1.0.0"
+date-released: "2026-04-11"
+type: software
+authors:
+  - family-names: "Fredriksen"
+    given-names: "Daniel Eric"
+    affiliation: "Quantyra Inc"
+    email: "dfredriksen@quantyra.org"
+repository-code: "https://github.com/dfredriksen/quantyra-teaching-artifacts"
+url: "https://github.com/dfredriksen/quantyra-teaching-artifacts"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Fredriksen"
+      given-names: "Daniel Eric"
+  title: "Protocol-Mediated Uplift in Agentic Workflows: Cross-Provider Evidence and Bounded Local Resilience"
+  year: 2026
+  url: "https://github.com/dfredriksen/quantyra-teaching-artifacts"
+  note: "Open artifact repository supporting the Quantyra Teaching paper."

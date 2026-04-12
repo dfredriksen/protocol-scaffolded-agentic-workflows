@@ -1,0 +1,1 @@
+Use the Quantyra planning protocol to produce a repository-grounded markdown plan for the next phase after the BP006 architecture freeze. The output must target this repo's actual benchmark workflow, retained artifacts, and markdown process rather than generic software delivery language.

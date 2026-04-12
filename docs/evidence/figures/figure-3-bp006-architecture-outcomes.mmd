@@ -1,0 +1,25 @@
+flowchart LR
+    subgraph C[Correction Wins]
+        C1[P1<br/>OpenAI -> Anthropic<br/>best 6/10]
+        C2[P4<br/>Anthropic -> OpenAI<br/>best 8/10]
+    end
+
+    subgraph T[Takeover Wins]
+        T1[P2<br/>Google -> OpenAI<br/>best 6/10]
+        T2[P5<br/>DeepSeek -> OpenAI<br/>best 6/10]
+    end
+
+    subgraph N[No Gain or Weak Gain]
+        N1[P3<br/>OpenAI -> Google<br/>no gain]
+        N2[P6<br/>DeepSeek -> Llama3.2<br/>weak gain 4/10]
+    end
+
+    R1[Strong executors often absorb critique]
+    R2[Weaker executors may need takeover]
+    R3[Weak review can erase the advantage]
+    R4[Hybrid local plus cloud review beats the first local-local fallback pair]
+
+    C --> R1
+    T --> R2
+    N --> R3
+    T --> R4

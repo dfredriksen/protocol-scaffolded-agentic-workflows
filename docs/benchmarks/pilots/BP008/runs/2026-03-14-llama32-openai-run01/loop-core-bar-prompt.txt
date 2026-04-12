@@ -1,0 +1,1 @@
+Evaluate the executor artifact set against the workflow core bar only. Fail if required artifacts are missing, approvals are invented, blocker placeholders are mishandled, stop-condition logging is absent, or the handoff index is not present and draft-safe.

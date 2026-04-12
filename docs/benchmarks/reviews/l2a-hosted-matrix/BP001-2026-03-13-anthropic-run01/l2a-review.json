@@ -1,0 +1,28 @@
+{
+  "condition_x": {
+    "task_completion": 0,
+    "validation_quality": 0,
+    "protocol_adherence": 0,
+    "rework_burden": 0,
+    "transfer_readiness": 0,
+    "total": 0
+  },
+  "condition_y": {
+    "task_completion": 2,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 1,
+    "transfer_readiness": 2,
+    "total": 9
+  },
+  "stronger_condition": "Y",
+  "difference_magnitude": "large",
+  "main_behaviors": [
+    "Condition X hallucinated a repository structure and produced a plan for a non-existent codebase, yielding zero usable output on every dimension.",
+    "Condition Y followed the planning protocol, iterated through a draft-validate-revise loop, anchored the final plan to the actual repository's benchmark execution phase, and retained all required artifacts with explicit validation checkpoints and a closeout scorecard."
+  ],
+  "uncertainty_notes": [
+    "The taught-plan-draft.md shows the first iteration still drifted toward a generic teaching-module pipeline; the final plan corrected this after validator feedback, so rework_burden is scored 1 rather than 2 to reflect that one corrective iteration was required.",
+    "Same-operator scoring bias is acknowledged in the artifacts themselves; the evaluator cannot fully rule out that the validator feedback was provided by the same party that produced the plan, which could inflate apparent protocol adherence."
+  ]
+}

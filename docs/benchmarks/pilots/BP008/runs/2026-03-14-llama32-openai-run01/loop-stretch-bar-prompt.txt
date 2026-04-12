@@ -1,0 +1,1 @@
+Evaluate the executor artifact set against the BP008 stretch bar. Fail if placeholder labeling is incomplete, the handoff index is not continuation-safe, the artifact manifest is not auditable, or the overall artifact set remains skeletal rather than reviewer-ready.

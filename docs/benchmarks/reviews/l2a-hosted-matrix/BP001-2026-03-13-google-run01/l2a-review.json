@@ -1,0 +1,28 @@
+{
+  "condition_x": {
+    "task_completion": 1,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 1,
+    "transfer_readiness": 2,
+    "total": 8
+  },
+  "condition_y": {
+    "task_completion": 1,
+    "validation_quality": 0,
+    "protocol_adherence": 0,
+    "rework_burden": 1,
+    "transfer_readiness": 1,
+    "total": 3
+  },
+  "stronger_condition": "X",
+  "difference_magnitude": "large",
+  "main_behaviors": [
+    "Condition X applied the Teaching Planning Protocol with a full plan-and-refine loop, validator feedback, corrective revision, and a closeout scorecard \u2014 demonstrating structured protocol adherence even though the initial draft drifted from the intended task goal.",
+    "Condition Y produced a generic, template-style implementation plan with no protocol structure, no validation checkpoints, no scorecard, and no reference to the actual repository context or benchmark artifacts."
+  ],
+  "uncertainty_notes": [
+    "Condition X's task completion is scored 1 rather than 2 because the draft plan drifted to 'improve the planner itself' rather than 'plan the next repository implementation phase'; the final plan corrects this but the closeout scorecard still marks completion as 'partial', leaving some ambiguity about full resolution.",
+    "Condition Y's rework burden is scored 1 rather than 0 because the output is a usable template skeleton that could be adapted, but no actual corrections or iterations are evidenced in the artifacts \u2014 the score reflects that some rework would clearly be needed rather than a major restart."
+  ]
+}

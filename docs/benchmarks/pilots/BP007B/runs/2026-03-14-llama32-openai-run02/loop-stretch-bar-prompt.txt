@@ -1,0 +1,8 @@
+Evaluate the artifact against the STRETCH BAR only. Return only one of: PASS-STRETCH or FAIL. If FAIL, list only the remaining stretch-bar defects.
+
+Stretch bar:
+1. states what would count as genuine teaching rather than prompt overfitting
+2. identifies at least one explicit comparison condition
+3. specifies retained outputs with stronger rerunability
+4. provides clearer dependency ordering and checkpoint logic
+5. reaches evaluator quality consistent with a 10/10 planning result

@@ -1,0 +1,15 @@
+flowchart LR
+    A[Teaching episode<br/>task, failure mode, extracted lesson]
+    B[Protocol artifact<br/>externalized reusable procedure]
+    C[Benchmark packet<br/>baseline and taught conditions]
+    D[Retained runs<br/>outputs, worksheets, score summaries]
+    E[Scored comparison<br/>within-model uplift and failure analysis]
+    F[Synthesis memo<br/>cross-run interpretation and next gate]
+
+    A --> B --> C --> D --> E --> F
+
+    G[Teaching means explicit procedural structure,<br/>not one-off prompt improvement]
+    H[Retained outputs enable later audit,<br/>review, and manuscript traceability]
+
+    B -.-> G
+    D -.-> H

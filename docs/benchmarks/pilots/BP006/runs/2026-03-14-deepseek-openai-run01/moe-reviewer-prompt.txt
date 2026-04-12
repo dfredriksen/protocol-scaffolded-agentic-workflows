@@ -1,0 +1,6 @@
+Review the executor draft against:
+- `docs/process/planning-protocol.md`
+- repo grounding
+- missing dependencies
+- risks of generic or off-repo planning
+Do not rewrite the full answer.

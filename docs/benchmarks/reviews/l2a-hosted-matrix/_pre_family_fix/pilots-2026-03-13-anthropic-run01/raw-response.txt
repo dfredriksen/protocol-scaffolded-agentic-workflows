@@ -1,0 +1,30 @@
+```json
+{
+  "condition_x": {
+    "task_completion": 1,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 2,
+    "transfer_readiness": 1,
+    "total": 8
+  },
+  "condition_y": {
+    "task_completion": 1,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 2,
+    "transfer_readiness": 1,
+    "total": 8
+  },
+  "stronger_condition": "X",
+  "difference_magnitude": "negligible",
+  "main_behaviors": [
+    "Both conditions correctly identified the named stop condition (missing transfer task) and three additional blocking deficiencies, halting the workflow appropriately rather than producing invalid outputs.",
+    "Both conditions produced structured validation notes and retention lists despite halting; the taught condition (X) added slightly cleaner packaging of protocol logic per its own workflow notes, but behavioral outcomes were nearly identical."
+  ],
+  "uncertainty_notes": [
+    "The workflow traces and validation notes are self-reported artifacts rather than independently observed behavior, making it difficult to verify whether the described rigor was actually exhibited or merely documented.",
+    "The taught-validation-notes.md states 'the baseline was already close to protocol-complete,' and the baseline-workflow-trace.md states it 'exceeded the minimum required rigor even without the taught workflow prompt,' suggesting the teaching intervention had minimal measurable effect — the marginal advantage attributed to X is ambiguous and may not be real."
+  ]
+}
+```

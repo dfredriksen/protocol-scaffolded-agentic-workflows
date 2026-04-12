@@ -1,0 +1,1 @@
+Review the executor artifact against the verifier-backed stretch bar. A stretch pass requires explicit grounding in real repo paths and retained benchmark artifacts and must reject invented repo structure.

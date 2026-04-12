@@ -1,0 +1,11 @@
+Using `docs/process/planning-protocol.md`, create a plan for the next implementation phase of this repository. Apply the full plan-and-refine loop, include validation checkpoints, risks, dependencies, fallback paths, and close with a scorecard.
+
+Task context:
+Design the next implementation phase for this repository after benchmark packet creation. The plan must specify how to execute and score BP001 and BP002 pilots, including task setup, evaluator workflow, retained outputs, and pilot closeout artifacts.
+
+Hard constraints:
+- Stay grounded in this repository only.
+- Do not invent databases, users, training programs, production systems, APIs, enterprise rollouts, or software implementation work.
+- Focus on markdown benchmark execution artifacts already used in this repository.
+- Refer to specific retained outputs such as run folders, evaluator worksheets, score summaries, comparison memos, and benchmark packets when relevant.
+- State what would count as genuine teaching rather than prompt overfitting.

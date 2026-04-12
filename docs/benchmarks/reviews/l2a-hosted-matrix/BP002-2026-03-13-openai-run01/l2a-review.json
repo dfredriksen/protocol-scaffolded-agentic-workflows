@@ -1,0 +1,28 @@
+{
+  "condition_x": {
+    "task_completion": 2,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 2,
+    "transfer_readiness": 2,
+    "total": 10
+  },
+  "condition_y": {
+    "task_completion": 1,
+    "validation_quality": 1,
+    "protocol_adherence": 1,
+    "rework_burden": 1,
+    "transfer_readiness": 1,
+    "total": 5
+  },
+  "stronger_condition": "X",
+  "difference_magnitude": "large",
+  "main_behaviors": [
+    "Condition X correctly identified missing required fields (validation task, transfer task, obvious risks), triggered the formal stop condition, halted progression, and produced all required artifacts including a stop-condition log \u2014 demonstrating strict protocol adherence.",
+    "Condition Y recognized the same missing fields but attempted to infer or loosely complete them rather than halting, did not generate a formal stop-condition log, and incorrectly claimed no stop conditions were met \u2014 indicating weaker protocol enforcement and validation rigor."
+  ],
+  "uncertainty_notes": [
+    "The artifacts are self-reported workflow traces and validation notes rather than raw model outputs, so it is not possible to independently verify the exact model behavior from primary evidence.",
+    "The task completion score for Condition X is rated 2 because halting on a stop condition is the correct and complete behavior per the protocol; however, if 'task completion' is interpreted as producing a finished intake rather than correctly executing the workflow, the score could be argued as 1."
+  ]
+}

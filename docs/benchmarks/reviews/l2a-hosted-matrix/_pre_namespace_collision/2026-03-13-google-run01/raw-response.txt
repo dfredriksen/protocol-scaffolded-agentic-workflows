@@ -1,0 +1,30 @@
+```json
+{
+  "condition_x": {
+    "task_completion": 1,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 2,
+    "transfer_readiness": 1,
+    "total": 8
+  },
+  "condition_y": {
+    "task_completion": 1,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 2,
+    "transfer_readiness": 1,
+    "total": 8
+  },
+  "stronger_condition": "X",
+  "difference_magnitude": "negligible",
+  "main_behaviors": [
+    "Both conditions correctly triggered the stop condition on missing transfer task and halted with explicit reasoning, producing required artifacts (validation notes, stop-condition log, retention list).",
+    "Condition X (taught) was marginally more explicit in its step-by-step protocol adherence per the workflow trace, but the behavioral gap versus the baseline is acknowledged as modest in the artifacts themselves."
+  ],
+  "uncertainty_notes": [
+    "The artifacts themselves note that the behavioral gap between conditions is modest and the baseline was already strong, making differentiation difficult from the provided evidence alone.",
+    "Transfer readiness is scored 1 for both because no transfer task was identified and the stop-condition log explicitly flags this as missing; it is unclear whether the output structure would generalize without that field being populated."
+  ]
+}
+```

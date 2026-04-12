@@ -1,0 +1,28 @@
+{
+  "condition_x": {
+    "task_completion": 2,
+    "validation_quality": 2,
+    "protocol_adherence": 2,
+    "rework_burden": 2,
+    "transfer_readiness": 2,
+    "total": 10
+  },
+  "condition_y": {
+    "task_completion": 1,
+    "validation_quality": 1,
+    "protocol_adherence": 1,
+    "rework_burden": 1,
+    "transfer_readiness": 1,
+    "total": 5
+  },
+  "stronger_condition": "X",
+  "difference_magnitude": "large",
+  "main_behaviors": [
+    "Condition X correctly identified missing required fields (validation task, transfer task, obvious risks), triggered the formal stop condition, halted progression, and produced all required artifacts including a stop-condition log and artifact-retention list \u2014 demonstrating strict protocol adherence.",
+    "Condition Y recognized the same missing fields but handled them loosely by attempting to infer completions, did not generate a formal stop-condition log, and incorrectly claimed no stop conditions were met \u2014 indicating weaker protocol adherence and validation rigor."
+  ],
+  "uncertainty_notes": [
+    "The artifacts are self-reported workflow traces and validation notes rather than raw model outputs, so it is not possible to independently verify the exact model behavior from primary evidence.",
+    "Condition X's task_completion score of 2 reflects that halting on a stop condition is the correct and complete behavior per protocol; however, if the benchmark intended 'task completion' to mean producing a full intake, this could be interpreted as 1 \u2014 the rubric language favors the interpretation that correctly executing the protocol (including halting) constitutes successful completion."
+  ]
+}

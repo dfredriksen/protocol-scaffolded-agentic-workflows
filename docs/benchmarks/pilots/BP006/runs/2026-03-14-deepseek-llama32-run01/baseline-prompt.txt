@@ -1,0 +1,1 @@
+Create a plan for the next implementation phase of this repository. The plan should be practical and specific enough to execute. Stay inside this repo's markdown research workflow.

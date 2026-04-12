@@ -1,0 +1,1 @@
+Use the local workflow quality-bar protocol and BP008 task packet to produce a draft-safe internal release-readiness evidence bundle for this repository. Return markdown sections labeled as `draft-release-summary.md`, `reviewer-status.md`, `artifact-manifest.md`, `stop-condition-log.md`, and `handoff-index.md`.

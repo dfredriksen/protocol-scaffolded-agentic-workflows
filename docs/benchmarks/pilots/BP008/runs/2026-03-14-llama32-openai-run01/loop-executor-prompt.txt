@@ -1,0 +1,1 @@
+Create the initial BP008 draft artifact set using the local workflow quality-bar protocol and task packet. Return markdown sections labeled with the required filenames.

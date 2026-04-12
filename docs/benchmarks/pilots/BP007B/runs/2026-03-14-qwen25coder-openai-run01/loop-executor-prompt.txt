@@ -1,0 +1,1 @@
+Create the initial draft for the next repository phase after the BP006 architecture freeze. Follow the teaching planning protocol and produce a markdown artifact grounded in this repo's actual benchmark and evidence workflow.
