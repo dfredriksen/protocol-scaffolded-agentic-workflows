@@ -1,5 +1,7 @@
 # EMSE Submission Bundle V1
 
+[![DOI](https://zenodo.org/badge/1208279512.svg)](https://doi.org/10.5281/zenodo.20552809)
+
 ## Purpose
 
 Provide a single review-ready location for the current `EMSE` submission packet after hosted human `L2` integration.
@@ -47,6 +49,8 @@ Provide a single review-ready location for the current `EMSE` submission packet 
 - the remaining organizational actions are staffed signoff and final visual inspection
 - public artifact repository: `https://github.com/Quantyra/protocol-scaffolded-agentic-workflows`
 - fixed paper-support release target: `v1.0.7`
+- Zenodo concept DOI: `https://doi.org/10.5281/zenodo.20552809`
+- fixed `v1.0.7` archive DOI: `https://doi.org/10.5281/zenodo.20553373`
 
 ## Submission-facing files
 
